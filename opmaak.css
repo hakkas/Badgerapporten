@@ -1,0 +1,110 @@
+* {
+font-family: 'VT323', monospace;
+}
+
+header#banner {
+  height: 200px;
+  background-color: red;
+  border: 5px solid black;
+  border-bottom: 0px;
+  border-radius: 40px 40px 0px 0px;
+  padding: 15px;
+  background-image: url("https://image.freepik.com/vector-gratis/geometrico-resumen-mosaico-cuadrado-de-fondo-vector-de-diseno-de-cuadrados-en-tonos-rojos_1164-1132.jpg");
+}
+
+#logo {
+
+
+  margin: 10px;
+
+}
+
+
+#logodiv {
+  background-color: rgba(255,255,255, 0.8);;
+  border-radius: 10px;
+  width: 420px;
+  float: right;
+
+}
+
+#level {
+  border: 3px solid #000;
+  border-radius: 50%;
+  background-color: orange;
+  width: 120px;
+  height: 120px;
+  float: left;
+}
+
+#level > h1 {
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.medal {
+  float: left;
+  width: 120px;
+  height: 120px;
+}
+
+.ribbon {
+  width: 80px;
+  height: 70px;
+  margin: 0 auto;
+  position: relative;
+}
+.ribbon:before,
+.ribbon:after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 100%;
+  top: 0;
+}
+.ribbon:before {
+  right: 0;
+  background: #30110E;
+  transform: skew(-28deg);
+}
+.ribbon:after {
+  background: #EF7E76;
+  transform: skew(28deg);
+}
+.coin {
+  border: 1px solid #CA5D3E;
+  border-radius: 50%;
+  background: #F0CD73;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  margin: -15px auto 0 auto;
+  box-shadow: 0px 0px 3px 0px #989898;
+}
+.coin:after {
+  content: '';
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 35px;
+  height: 35px;
+  border-radius: inherit;
+  box-shadow: 0 0 0 9px #D9B867;
+}
+
+#titel {
+  clear: right;
+  color: white;
+  letter-spacing: 5px;
+  padding-top: 30px;
+}
+
+#comment {
+  padding: 20px;
+}
+
+p {
+  font-size: 20px;
+}
